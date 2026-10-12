@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.next/
+
+# secrets — never commit API keys or database URLs
+.env
+.env.*
+!.env.example
+
+# original CV files (PDF/DOCX); only the cleaned markdown in data/ is committed
+data/raw/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
