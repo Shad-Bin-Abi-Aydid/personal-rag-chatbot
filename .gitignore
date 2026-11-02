@@ -13,6 +13,9 @@ dist/
 # original CV files (PDF/DOCX); only the cleaned markdown in data/ is committed
 data/raw/
 
+# personal interview-prep notes (private, not for the public repo)
+notes/
+
 # OS / editor
 .DS_Store
 Thumbs.db
